@@ -1,0 +1,11 @@
+server:
+  port: 30001
+spring:
+  application:
+    name: c-cloud-gateway
+
+  cloud:
+    nacos:
+      server-addr: "http://49.233.54.158:30011"
+      username: nacos
+      password: nacos
